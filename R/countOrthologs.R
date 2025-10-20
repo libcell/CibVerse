@@ -1,4 +1,6 @@
 
+## M1 - Common Ortholog Identification. 
+
 options(timeout = 9999)
 
 ko_list <- vector("list", length = length(species))
@@ -33,3 +35,22 @@ final_results <- paste("\nThere are", length(common_orthologs),
 
 cat(final_results)
 print(common_orthologs)
+
+## M2 - Responding Gene Symbols (or Entrez Ids) in Human Genome for Orthologs. 
+
+hsa_url <- "http://rest.genome.jp/list/hsa"
+
+ko_dt <- read.csv(hsa_url, header = FALSE, sep = "\t")
+
+ortholog_entrezIDs <- NULL
+
+for (i in 1:length(common_orthologs)) {
+  
+  ortholog_entrezIDs <- c(ortholog_entrezIDs, 
+                        ko_dt$V1[grep(common_orthologs[i], ko_dt$V2)][1])
+  
+}
+
+names(common_orthologs) <- ortholog_entrezIDs
+
+ 
