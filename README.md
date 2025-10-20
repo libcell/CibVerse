@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="man/figures/logo.png" alt="CibVerse Logo" width="200"/>
+  <img src="man/figures/CibVerse_logo.png" alt="CibVerse Logo" width="200"/>
 </p>
 
 <h1 align="center">CibVerse</h1>
