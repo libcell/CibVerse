@@ -1,5 +1,10 @@
 <p align="center">
   <img src="man/figures/CibVerse_logo.png" alt="CibVerse Logo" width="200"/>
+  <p align="center">
+  <a href="https://github.com/CibLab/CibVerse"><img src="https://img.shields.io/github/stars/CibLab/CibVerse?style=flat-square&color=brightgreen" /></a>
+  <a href="https://github.com/CibLab/CibVerse/issues"><img src="https://img.shields.io/github/issues/CibLab/CibVerse?style=flat-square&color=blue" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat-square" /></a>
+</p>
 </p>
 
 <h1 align="center">CibVerse</h1>
@@ -46,23 +51,3 @@ data(mtcars)
 summary_stats <- cib_summary(mtcars, group = "cyl")
 cib_plot(summary_stats)
 ```
-
-
-CibVerse/
-├── R/
-│   ├── data_tools.R      # Data processing and wrangling
-│   ├── plot_utils.R      # Visualization and ggplot2 wrappers
-│   ├── model_helper.R    # Statistical modeling helpers
-│   ├── bio_utils.R       # Bioinformatics utilities
-│   └── misc.R            # Miscellaneous utilities
-├── man/                  # Function documentation
-├── tests/                # Unit tests
-├── vignettes/            # Tutorials and workflows
-└── DESCRIPTION           # Package metadata
-
-<p align="center">
-  <a href="https://github.com/CibLab/CibVerse"><img src="https://img.shields.io/github/stars/CibLab/CibVerse?style=flat-square&color=brightgreen" /></a>
-  <a href="https://github.com/CibLab/CibVerse/issues"><img src="https://img.shields.io/github/issues/CibLab/CibVerse?style=flat-square&color=blue" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat-square" /></a>
-</p>
-
