@@ -3,12 +3,6 @@
   <img src="man/figures/CibVerse_logo.png" alt="CibVerse Logo" width="200"/>
 </p>
 
-<h1 align="center">CibVerse</h1>
-<p align="center">
-  <b>Research Tools from CibLab</b><br>
-  <em>An integrated R toolkit for data analysis, visualization, and reproducible research</em>
-</p>
-
 <p align="center">
   <!-- ⭐ Stars -->
   <a href="https://github.com/CibLab/CibVerse/stargazers">
@@ -22,16 +16,6 @@
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square" alt="License"/>
   </a>
-</p>
-
-
-<p align="center">
-  <img src="man/figures/CibVerse_logo.png" alt="CibVerse Logo" width="200"/>
-  <p align="center">
-  <a href="https://github.com/CibLab/CibVerse"><img src="https://img.shields.io/github/stars/CibLab/CibVerse?style=flat-square&color=brightgreen" /></a>
-  <a href="https://github.com/CibLab/CibVerse/issues"><img src="https://img.shields.io/github/issues/CibLab/CibVerse?style=flat-square&color=blue" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat-square" /></a>
-</p>
 </p>
 
 <h1 align="center">CibVerse</h1>
