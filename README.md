@@ -28,13 +28,9 @@
 
 ## 🧬 Overview
 
-**CibVerse** is a comprehensive R package developed by the **CibLab** research group,  
-providing a unified set of tools for **data processing**, **statistical analysis**,  
-and **scientific visualization** across biological and biomedical research domains.
+**CibVerse** is a comprehensive R package developed by the **CibLab** research group, providing a unified set of tools for **data processing**, **statistical analysis**,  and **scientific visualization** across biological and biomedical research domains.
 
-Designed for graduate students and researchers,  
-CibVerse consolidates the lab’s frequently used R utilities into one elegant, modular ecosystem —  
-enhancing productivity, reproducibility, and collaboration in daily research workflows.
+Designed for graduate students and researchers, CibVerse consolidates the lab’s frequently used R utilities into one elegant, modular ecosystem — enhancing productivity, reproducibility, and collaboration in daily research workflows.
 
 ---
 
