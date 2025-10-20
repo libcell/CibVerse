@@ -1,4 +1,6 @@
 
+options(timeout = 9999)
+
 ko_list <- vector("list", length = length(species))
 
 names(ko_list) <- species_data$Species.brief
