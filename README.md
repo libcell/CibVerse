@@ -12,7 +12,14 @@ Authors@R:
              role = "ctb",
              comment = "Codes for graduate students and collaborators from the Cib Laboratory"))
 Description: 
-    The CibVerse package provides a unified collection of custom functions and tools developed in the Cib Laboratory for data processing, statistical analysis, and visualization in biological and biomedical research. It aims to improve research reproducibility and efficiency by centralizing frequently used R utilities created by the lab. The package integrates modular scripts for data cleaning, exploratory analysis, graphics generation, and report automation, serving as a versatile companion for graduate students and researchers.
+    The CibVerse package provides a unified collection of custom functions and tools 
+    developed in the Cib Laboratory for data processing, statistical analysis, 
+    and visualization in biological and biomedical research. 
+    It aims to improve research reproducibility and efficiency by 
+    centralizing frequently used R utilities created by the lab. 
+    The package integrates modular scripts for data cleaning, exploratory analysis, 
+    graphics generation, and report automation, serving as a versatile companion 
+    for graduate students and researchers.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
