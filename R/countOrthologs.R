@@ -32,4 +32,4 @@ final_results <- paste("\nThere are", length(common_orthologs),
                        "between these", nrow(species_data), "and results are as follows:\n")
 
 cat(final_results)
-cat(common_orthologs)
+print(common_orthologs)
